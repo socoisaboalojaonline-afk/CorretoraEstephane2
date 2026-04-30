@@ -113,6 +113,19 @@ nav a:hover {
   background-color: #145c38;
 }
 
+.head1 {
+  position: relative;
+  background-image: url("Amaral Coutinho/Amaral-Coutinho-01.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 600px;
+  width: 100%;
+  padding: 40px 20px;
+  color: white;
+  font-family: Helvetica;
+}
+
 main {
   flex: 1;
   max-width: 1080px;
