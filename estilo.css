@@ -21,6 +21,7 @@ header {
   background-image: url("fundo-22.jpg");
   background-size: cover;
   background-position: center;
+  height: 600px;
   padding: 40px 20px;
   color: white;
   font-family: Helvetica;
@@ -48,7 +49,7 @@ header {
 }
 
 .hero-imagem img {
-  transform: translateY(44px) translateX(40px);
+  transform: translateY(65px) translateX(40px);
   width: 340px;
   max-width: 100%;
 }
@@ -447,14 +448,13 @@ footer p {
   }
   
   .hero-imagem img {
-    width: 200px;
-    transform: none;
+    display: none;
   }
   
   nav {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
   }
   
   main {
