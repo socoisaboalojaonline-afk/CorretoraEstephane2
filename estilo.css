@@ -425,7 +425,7 @@ footer p {
   color: white;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 100%px) {
   .hero-conteudo {
     flex-direction: column;
     text-align: center;
@@ -469,8 +469,7 @@ footer p {
   }
   
   .card {
-    flex-direction: column;
-    max-width: 100%;
+    max-width: 50%;
     padding: 10px;
   }
   
