@@ -465,7 +465,7 @@ footer p {
   }
   
   .blocos {
-    flex-direction: column;
+    display: flex;
   }
   
   .card {
@@ -474,7 +474,7 @@ footer p {
   }
   
   .card img {
-    width: 100%;
+    width: 30%;
     height: auto;
     max-height: 200px;
     object-fit: cover;
