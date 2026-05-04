@@ -323,6 +323,10 @@ main {
   margin-left: 20px;
 }
 
+.divisor {
+  display: inline;
+}
+
 .cta-final {
   margin-top: 60px;
   padding: 60px 20px;
