@@ -314,7 +314,13 @@ main {
 }
 
 .numeros {
-  
+  text-align: center;
+}
+
+.nume {
+  display: inline;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .cta-final {
@@ -568,6 +574,22 @@ footer p {
     flex-direction: column;
     gap: 20px;
     align-items: flex-start;
+  }
+  
+  .numeros {
+    flex-direction: column;
+    margin: 12px;
+  }
+  
+  .nume {
+    display: block;
+    align-items: center;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  
+  .divisor
+    display: none;
   }
   
   .cta-final {
