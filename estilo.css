@@ -21,7 +21,7 @@ header {
   background-image: url("fundo-22.jpg");
   background-size: cover;
   background-position: center;
-  height: 600px;
+  min-height: 600px;
   padding: 40px 20px;
   color: white;
   font-family: Helvetica;
@@ -49,7 +49,7 @@ header {
 }
 
 .hero-imagem img {
-  transform: translateY(65px) translateX(40px);
+  transform: translateY(64px);
   width: 340px;
   max-width: 100%;
 }
@@ -140,7 +140,7 @@ main {
 }
 
 .blocos {
-  display: flex;
+  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 25px;
   margin-top: 30px;
@@ -255,7 +255,7 @@ main {
 .sobre-div {
   display: flex;
   gap: 40px;
-  align-itens: center;
+  align-items: center;
 }
 
 .sobre-img {
@@ -291,6 +291,12 @@ main {
   padding: 40px;
   background: #fafafa;
   border-radius: 12px;
+}
+
+.prova {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 
 .diferenciais {
@@ -425,7 +431,7 @@ footer p {
   color: white;
 }
 
-@media (max-width: 100%px) {
+@media (max-width: 768px) {
   .hero-conteudo {
     flex-direction: column;
     text-align: center;
@@ -465,18 +471,19 @@ footer p {
   }
   
   .blocos {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1rf);
+    gap: 15px;
   }
   
   .card {
-    max-width: 50%;
-    padding: 10px;
+    flex: none;
+    max-width: 100%;
   }
   
   .card img {
-    width: 30%;
-    height: auto;
-    max-height: 200px;
+    width: 100%;
+    height: 140px;
     object-fit: cover;
   }
   
@@ -491,6 +498,11 @@ footer p {
   .sobre-txt {
     margin-top: 0;
     text-align: center;
+  }
+  
+  .whatsapp-float {
+    right: 15px;
+    bottom: 15px;
   }
 }
 
