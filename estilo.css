@@ -582,12 +582,11 @@ footer p {
   
   .numeros {
     flex-direction: column;
-    text-align: right;
+    text-align: left;
   }
   
   .nume {
     display: block;
-    align-items: center;
     margin-right: 0px;
     margin-left: 0px;
   }
