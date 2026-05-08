@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -221,6 +225,17 @@ main {
   color: #555;
 }
 
+.badge {
+  display: inline-block;
+  background: #ff4d4d;
+  color: white;
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 6px;
+  margin-top: 0px;
+  font-weight: bold;
+}
+
 .btn-card {
   display: inline-block;
   background: #1f7a4d;
@@ -442,13 +457,13 @@ footer p {
 }
 
 @media (max-width: 768px) {
-  .body {
+  body {
     overflow-x: hidden;
   }
   
   .hero {
     min-height: auto;
-    pading: 20px 16px 40px;
+    padding: 20px 16px 40px;
   }
   
   .hero-conteudo {
