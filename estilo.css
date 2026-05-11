@@ -171,8 +171,9 @@ main {
 
 .card img {
   width: 160px;
-  border-radius: 10px;
+  aspect-ratio: 16/10;
   object-fit: cover;
+  border-radius: 10px;
   transition: 0.3s;
 }
 
@@ -538,6 +539,7 @@ footer p {
   
   .card img {
     width: 100%;
+    aspect-ratio: 16/10;
     height: 130px;
     object-fit: cover;
   }
