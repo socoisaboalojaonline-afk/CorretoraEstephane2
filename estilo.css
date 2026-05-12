@@ -323,9 +323,27 @@ main {
 }
 
 .dife {
-  display: flex;
-  gap: 80px;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.item-dife {
+  background: #f8f8f8;
+  padding: 25px;
+  border-radius: 14px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.item-dife:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+}
+
+.item-dife p {
+  text-align: center;
 }
 
 .numeros {
