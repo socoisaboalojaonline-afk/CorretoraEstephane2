@@ -46,7 +46,7 @@ header {
 .hero-conteudo {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
   gap: 70px;
   margin-top: 40px;
   flex-wrap: wrap;
@@ -61,6 +61,7 @@ header {
 .hero-texto {
   font-size: 36px;
   max-width: 531px;
+  transform: translateX(300px);
 }
 
 .hero-texto h1 {
@@ -85,7 +86,7 @@ header {
   display: inline-block;
   background-color: #1f7a4d;
   color: white !important;
-  padding: 12px 20px;
+  padding: 12px 42px;
   border-radius: 6px;
   text-decoration: none;
   font-weight: bold;
@@ -136,6 +137,10 @@ main {
   max-width: 1080px;
   margin: auto;
   font-size: 18px;
+}
+
+h2 {
+  text-align: center;
 }
 
 .image {
@@ -303,9 +308,34 @@ main {
 
 .confiança {
   margin-top: 60px;
-  padding: 40px;
-  background: #fafafa;
-  border-radius: 12px;
+  padding: 50px;
+  background: linear-gradient(to bottom, #fafafa, #f2f2f2);
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+.atalhos {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.atalhos a {
+  background: white;
+  color: #1f7a4d;
+  padding: 14px 22px;
+  border-radius: 999px;
+  font-weight: bold;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: 0.3;
+}
+
+.atalhos a:hover {
+  transform: translateY(-3px);
+  background: #1f7a4d;
+  color: white;
 }
 
 .prova {
@@ -316,17 +346,45 @@ main {
 
 .diferenciais {
   margin-top: 30px;
-  padding: 30px;
+  padding: 50px 30px;
   background: white;
-  border-radius: 12px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.05);
 }
 
 .dife {
-  display: grid;
+  grid-template-columns: 1fr;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 20px;
   margin-top: 30px;
+}
+
+.diferenciais h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.linha-dife {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.linha-dife span {
+  background: #f5f5f5;
+  padding: 14px 22px;
+  border-radius: 999px;
+  font-weight: 600;
+  color: #222;
+  transition: 0.3s;
+}
+
+.linha-dife span:hover {
+  background: #1f7a4d;
+  color: white;
+  transform: translateY(-3px);
 }
 
 .item-dife {
@@ -347,6 +405,7 @@ main {
 }
 
 .numeros {
+  margin-top: 30px;
   text-align: center;
 }
 
@@ -389,7 +448,7 @@ main {
   color: white;
 }
 
-span {
+.blk {
   display: block;
   text-align: left;
 }
@@ -399,7 +458,7 @@ span {
 }
 
 section {
-  margin-bottom: 40px;
+  margin-bottom: 80px;
 }
 
 h2 {
@@ -650,4 +709,3 @@ footer p {
     height: 58px;
   }
 }
-
